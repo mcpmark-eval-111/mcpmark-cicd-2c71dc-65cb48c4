@@ -1,10 +1,10 @@
-// Example file with intentional linting violations
-var unusedVariable = "this is never used"
-const message = "Hello, world!"
+// Example file with intentional linting violations to demonstrate the workflow.
+var unusedVariable = "I am never used"
+const message = "Hello from example.js"
 
 function greet(name) {
     console.log("Greeting: " + name)
-    return "Hi " + name
+    return "Hi, " + name
 }
 
-greet("Developer")
+greet("world")
